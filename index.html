@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- *titulo buscador navegador portada -->
+  <header>
+    <!-- ? titulo buscador -->
+    <div class="eltunel d-flex justify-content-end align-items-center">
+      <div class="titulo w-100">
+        <p class="text-center fs-60">El Túnel</p>
+      </div>
+      <div class="buscador d-flex justify-content-start">
+        <div class="w-50 d-flex justify-content-center">
+          <input type="text" />
+          <button>
+            <i class="bi bi-search"></i>
+          </button>
+        </div>
+        <div class="iconos w-25 d-flex justify-content-evenly">
+          <div class="icon-notificacion d-grid">
+            <i class="mono bi bi-person"></i>
+          </div>
+          <div class="icon-notificacion d-grid">
+            <i class="mono bi bi-heart-fill"></i>
+            <i class="numero bi num-notificacion bi-5-circle-fill"></i>
+          </div>
+          <div class="icon-notificacion d-grid">
+            <i class="mono bi bi-bag-check-fill"></i>
+            <i class="numero bi num-notificacion bi-3-circle-fill"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *navegador portada-->
+    <hgroup>
+      <!-- !navegador -->
+      <nav class="bg-tunel navbar navbar-expand-lg">
+        <div class="container d-flex justify-content-around">
+          <a class="nav-link text-white fs-3" href="#">Inicio</a>
+          <a class="nav-link text-white fs-3" href="#">Libros</a>
+          <a class="nav-link text-white fs-3" href="#">Los más leídos</a>
+          <a class="nav-link text-white fs-3" href="#">Accesorios</a>
+          <a class="nav-link text-white fs-3" href="#">Sucursal</a>
+        </div>
+      </nav>
+      <!-- ?portada -->
+      <section class="portada hero-text d-flex justify-content-center align-items-center">
+        <div>
+          <p class="fs-60">
+            ...Creando nuevos mundos, historias <br />
+            y recuerdos
+          </p>
+          <p class="fs-3 fst-italic">
+            "Vivir consiste en construir futuros recuerdos"
+          </p>
+        </div>
+      </section>
+    </hgroup>
+    <br />
+    <section class="recommendations">
+      <h2 class="fw-bold">Recomendaciones</h2>
+      <br />
+      <div class="book-recomendations justify-content-between">
+        <!-- Reemplaza las imágenes y textos de ejemplo con el contenido real -->
+        <div class="book">
+          <div style="
+                background-image: url(./img/harry.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+              " class="w-100 h-75"></div>
+          <div class="h-25 overflow-hidden d-flex flex-column align-items-center justify-content-between">
+            <span class="fs-4 fw-bold">Harry Potter y la piedra filosofal</span>
+            <div>
+              <span>J. K. Rowling</span>
+              <a href="#" class="btn w-50">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="book">
+          <div style="
+                background-image: url(./img/cien.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+              " class="w-100 h-75"></div>
+          <div class="h-25 overflow-hidden d-flex flex-column align-items-center justify-content-between">
+            <span class="fs-4 fw-bold">Cien años de soledad</span>
+            <div>
+              <span>Gabriel García Márquez</span>
+              <a href="#" class="btn w-50">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <div style="
+                background-image: url(./img/insoportable.webp);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+              " class="w-100 h-75"></div>
+          <div class="h-25 overflow-hidden d-flex flex-column align-items-center justify-content-between">
+            <span class="fs-4 fw-bold">La insoportable levedad del ser</span>
+            <div>
+              <span>Milan Kundera</span>
+              <a href="#" class="btn w-50">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <div style="
+                background-image: url(./img/agua.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+              " class="w-100 h-75"></div>
+          <div class="h-25 overflow-hidden d-flex flex-column align-items-center justify-content-between">
+            <span class="fs-4 fw-bold">Como agua para chocolate</span>
+            <div>
+              <span>Laura Esquivel</span>
+              <a href="#" class="btn w-50">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="books">
+      <h2 class="fw-bold">Libros</h2>
+      <br />
+      <div class="book-list overflow-scroll justify-content-between">
+        <div class="book">
+          <div style="
+                background-image: url(./img/silencio.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+              " class="w-100 h-75"></div>
+          <div class="h-25 overflow-hidden flex-column align-items-center justify-content-between">
+            <span class="fs-4 fw-bold">Fuerte es el silencio</span>
+            <div>
+              <span>Elena Poniatowska</span>
+              <div class="d-flex justify-content-center align-items-center gap-4 mt-4">
+                <p class="price fs-4">$450.00</p>
+                <a href="#" class="btn">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <div style="
+                background-image: url(./img/rayuela.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+              " class="w-100 h-75"></div>
+          <div class="h-25 overflow-hidden flex-column align-items-center justify-content-between">
+            <span class="fs-4 fw-bold">Rayuela</span>
+            <div>
+              <span>Julio Cortázar</span>
+              <div class="d-flex justify-content-center align-items-center gap-4 mt-4">
+                <p class="price fs-4">$445.00</p>
+                <a href="#" class="btn">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <div style="
+                background-image: url(./img/herodes.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+              " class="w-100 h-75"></div>
+          <div class="h-25 overflow-hidden flex-column align-items-center justify-content-between">
+            <span class="fs-4 fw-bold">La ley de Herodes</span>
+            <div>
+              <span>Jorge Ibargüengoitia</span>
+              <div class="d-flex justify-content-center align-items-center gap-4 mt-4">
+                <p class="price fs-4">$150.00</p>
+                <a href="#" class="btn">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <div style="
+                background-image: url(./img/arrancame.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+              " class="w-100 h-75"></div>
+          <div class="h-25 overflow-hidden flex-column align-items-center justify-content-between">
+            <span class="fs-4 fw-bold">Arráncame la vida</span>
+            <div>
+              <span>Ángeles Mastretta</span>
+              <div class="d-flex justify-content-center align-items-center gap-4 mt-4">
+                <p class="price fs-4">$350.00</p>
+                <a href="#" class="btn">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <div style="
+                background-image: url(./img/habitacion.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+              " class="w-100 h-75"></div>
+          <div class="h-25 overflow-hidden flex-column align-items-center justify-content-between">
+            <span class="fs-4 fw-bold">Una habitación propia</span>
+            <div>
+              <span>Virginia Woolf</span>
+              <div class="d-flex justify-content-center align-items-center gap-3 mt-1">
+                <p class="price fs-4">$240.00</p>
+                <a href="#" class="btn">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="d-flex justify-content-center align-items-center gap-3 mt-1">
+        <div>
+          <h2 class="fw-bold">Conócenos</h2>
+          <p>
+            El Túnel es una cafetería ideal para los amantes de la literatura.
+            Además de su servicio de venta de libros y productos en línea,
+            puedes visitar nuestra sucursal para disfrutar de los diversos
+            eventos culturales que tenemos para ti.
+          </p>
+          <p>
+            Siguenos en redes sociales y mantente atento a la cartelera de
+            eventos
+          </p>
+          <h4 class="fw-bold text-center">¡Te esperamos!</h4>
+        </div>
+        <div class="image">
+          <img src="./img/librero.jpg" alt="Conócenos" />
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <footer class="hero-text2">
+    <div>
+      <div>
+        <div class="d-flex">
+          <div class="w-75">
+            <p class="text-left">El Túnel</p>
+            <hr class="custom-divider-top" />
+            <p>
+              Un espacio para los amantes de la literatura. Encuantra la mejor
+              selección de libros, accesorios y un acogedor espacio en la CDMX
+              para leer y tomar un café con tu libro favorito
+            </p>
+            <div class="d-flex align-items-left gap-1 mt-2">
+              <a href="https://www.google.com.mx/maps/place/Av.+%C3%81lvaro+Obreg%C3%B3n+90,+Roma+Nte.,+Cuauht%C3%A9moc,+06700+Ciudad+de+M%C3%A9xico,+CDMX/@19.4182077,-99.1614501,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff3afa9f76bf:0x516eb3681e92f316!8m2!3d19.4182027!4d-99.1588752!16s%2Fg%2F11b8vdt7vk?entry=ttu" target="_blank">
+                <i class="bi bi-geo-alt-fill"></i>
+              </a>
+              <p>
+                Av. Álvaro Obregón 90, Roma Nte. Cuauhtémoc, 06700 Ciudad de
+                México, CDMX
+              </p>
+            </div>
+            
+            <div class="d-flex align-items-letf gap-2 mt-2">
+              <i class="bi bi-telephone-fill"></i>
+              <p>56 98 89 07 99 87</p>
+            </div>
+            <div class="d-flex align-items-letf gap-2 mt-2">
+              <i class="bi bi-envelope-fill"></i>
+              <p>eltunel.libros@gmail.com</p>
+            </div>
+
+            <div class="d-flex w-75 custom-divider-left">
+              <div class="icon-container">
+                <img src="./img/facebook.png" alt="facebook">
+                <img src="./img/twitter-x.png" alt="twitter-x">
+                <img src="./img/instagram.png" alt="instagram">
+                <img src="./img/youtube.png" alt="youtube">
+              </div>
+            </div>
+          </div>
+          <span class="w-75 margin-div">
+            <a class="nav-link text-white fs-5" href="#">Información</a>
+            <hr class="custom-divider" />
+            <a class="nav-link text-white fs-5" href="#">Inicio</a>
+            <a class="nav-link text-white fs-5" href="#">Acerca de El Túnel</a>
+            <a class="nav-link text-white fs-5" href="#">Tarjeta de cliente frecuente</a>
+            <a class="nav-link text-white fs-5" href="#">Ventas por mayoreo</a>
+            <a class="nav-link text-white fs-5" href="#">Facturación</a>
+            <a class="nav-link text-white fs-5" href="#">Contáctanos</a>
+            <a class="nav-link text-white fs-5" href="#">Aviso de privacidad</a>
+            <a class="nav-link text-white fs-5" href="#">Términos y condiciones</a>
+            
+          </span>
+          <div class=" w-75 margin-div">
+            <span>Suscribete</span>
+            <hr class="custom-divider" />
+            <div>
+              Registrate para recibir noticias de promociones, eventos y
+              actualizaciones.
+            </div>
+
+            <div class="d-flex gap-2 mt-3">
+              <div>
+                <label for="email" class="form-label"></label>
+              </div>
+              <div class="w-75">
+                <!-- <p>dhfjdsfjdjkfhjkdf</p> -->
+                <input type="email" class="form-control" id="email" placeholder="ingresa tu email" required>
+              </div>
+
+              <div class="your-mail">
+                <!-- <div class="d-flex justify-content-center align-items-center gap-4 mt-4"> -->
+                <a href="#" class="btn">Enviar</a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="bg-tunel d-flex justify-content-around align-items-center">
+        <span>2024 @ El Tunel. Todos los Derechos Reservados. │ Diseñado por
+          Escuela de Código ADIP</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

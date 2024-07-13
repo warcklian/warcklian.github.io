@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+:root {
+  --color-primario: #6e2e08;
+  --color-secundario: #0b2648;
+  --color-succes: #054737;
+  --color-warning: #6e4708;
+  --color-nav: #b69a76;
+  --color-titulo-2: #911c0d;
+}
+
+.num-notificacion {
+  color: red;
+}
+
+i {
+  color: var(--color-secundario);
+}
+
+i:hover {
+  color: #2375da;
+}
+
+.buscador {
+  width: 40%;
+}
+
+.titulo {
+  color: rgb(110, 46, 8);
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  /* estas cosas */
+  position: absolute;
+  z-index: -1;
+}
+
+.eltunel {
+  height: 80px;
+}
+
+.titulo h1 {
+  text-align: center;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-cyan {
+  background-color: cyan;
+}
+
+.bg-tunel {
+  background-color: #b69a76;
+  height: 100px;
+}
+
+
+.parent {
+  justify-content: center;
+  align-content: center;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+
+.icon-notificacion .mono {
+  grid-column: 1/4;
+  grid-row: 1/5;
+  font-size: 30px;
+}
+
+.icon-notificacion .numero {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  font-size: 13px;
+}
+
+.portada {
+  height: 26vw;
+  background-image: url(../img/portada.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 70px 150px;
+}
+
+.portada {
+  background-image: url(../img/librero.jpg);
+    /* img src="./img/librero.jpg" alt="Conócenos"; */
+}
+
+.navegador {
+  display: flex;
+  height: 50px;
+
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.hero-text2 {
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  background-color: #b69a76;
+  padding: 20px;
+}
+
+.custom-divider-top {
+  border-top: 5px solid white;
+}
+
+.custom-divider-left {
+  border-left: 115px solid #b69a76;
+}
+
+.margin-div {
+  margin-left: 1rem;
+}
+
+.recommendations,
+.books,
+.about {
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+h2 {
+  text-align: left;
+  color: #b22222;
+}
+
+h4 {
+  color: #b22222;
+}
+
+.book-recomendations {
+  display: flex;
+  gap: 30px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.book-list {
+  display: flex;
+  /* justify-content: center; */
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.book {
+  flex: 0 0 auto;
+  text-align: center;
+  width: 300px;
+  height: 600px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+}
+
+.image img {
+  width: 75%;
+  height: 75%;
+}
+
+.book .price {
+  color: #d6bf83;
+  font-weight: bold;
+  justify-items: center;
+  padding-top: 10px;
+}
+
+.book .btn {
+  background-color: #b22222;
+  color: white;
+  text-decoration: none;
+}
+
+.your-mail .btn {
+  background-color: #b22222;
+  color: white;
+  text-decoration: none;
+}
+.fs-60 {
+  font-size: 60px;
+}
+
+.icon-container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container img {
+  width: 30px;
+  /* Ajusta el tamaño según sea necesario */
+  height: 30px;
+  margin: 0 10px;
+  /* Espaciado entre los iconos */
+}
